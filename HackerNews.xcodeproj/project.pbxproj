@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -45,6 +45,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6353ACAC2AA25C3C00542A12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95A8524E25388F47007A1D16 /* NewsView.swift */,
+				95A8525C253893ED007A1D16 /* Formatting.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6353ACAD2AA25CA800542A12 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				95A1E37125403DC400052C21 /* NewsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6353ACAE2AA25CB600542A12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95A8525325388FB1007A1D16 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9575A727253860F900AFA2CC = {
 			isa = PBXGroup;
 			children = (
@@ -65,11 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				95A8524D25388F47007A1D16 /* HackerNewsApp.swift */,
-				95A8524E25388F47007A1D16 /* NewsView.swift */,
-				95A1E37125403DC400052C21 /* NewsViewModel.swift */,
-				95A8525C253893ED007A1D16 /* Formatting.swift */,
+				6353ACAC2AA25C3C00542A12 /* Views */,
+				6353ACAD2AA25CA800542A12 /* ViewModels */,
 				95A1E36D2540375800052C21 /* APIRequest.swift */,
-				95A8525325388FB1007A1D16 /* Item.swift */,
+				6353ACAE2AA25CB600542A12 /* Models */,
 				95A852562538913B007A1D16 /* Story.json */,
 				9575A737253860FD00AFA2CC /* Assets.xcassets */,
 				9575A73C253860FD00AFA2CC /* Info.plist */,
@@ -113,8 +137,9 @@
 		9575A728253860F900AFA2CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					9575A72F253860F900AFA2CC = {
 						CreatedOnToolsVersion = 12.0;
